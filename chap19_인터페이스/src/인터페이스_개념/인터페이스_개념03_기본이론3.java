@@ -66,5 +66,7 @@ public class 인터페이스_개념03_기본이론3 {
 		int menu = sc.nextInt();
 		
 		shapes[menu - 1].draw();
+		
+		sc.close();
 	}
 }
